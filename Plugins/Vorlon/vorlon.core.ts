@@ -368,6 +368,7 @@
             }
             else if (Tools.IsWindowAvailable) {
                 var divError = document.createElement("div");
+                divError.classList.add("vorlonErrorMessage");
                 divError.style.position = "absolute";
                 divError.style.top = "0";
                 divError.style.left = "0";
